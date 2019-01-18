@@ -1,0 +1,3 @@
+create keyspace if not exists school with replications = {'class':'SimpleStrategy','replication_factor':3};
+
+
